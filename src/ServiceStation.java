@@ -26,6 +26,7 @@ public class ServiceStation {
         for (int i = 0; i < bicycle.getWheelsCount(); i++) {
             bicycle.updateTyre();
         }
+        bicycle.checkEngine();
     }
 }
 
